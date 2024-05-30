@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Example</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar-custom {
+            background-color: #ADD8E6;
+        }
+        .card-custom {
+            border: none;
+        }
+        .card-custom img {
+            border-radius: 50%;
+        }
+        .highlight {
+            color: #f39c12;
+        }
+        .category-nav .nav-link {
+            padding: 0.75rem 1.25rem;
+        }
+        .category-nav .nav-link.active {
+            background-color: #563d7c;
+            color: black !important;
+        }
+        .navbar-nav-center {
+            margin: auto;
+        }
+        .nav-link-custom {
+            padding: 0.5rem 1rem;
+            margin: 0 0.25rem;
+            border: 1px solid #007bff;
+            border-radius: 0.25rem;
+            color: #007bff !important;
+            text-align: center;
+        }
+        .nav-link-custom:hover {
+            background-color: #007bff;
+            color: #fff !important;
+        }
+        .ii{
+          
+           background-image: url("play.png"); 
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-custom navbar-dark">
+        <a class="navbar-brand" href="https://orange.jo/en">Orange</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto navbar-nav-center">
+                <li class="nav-item">
+                    <a class="nav-link nav-link-custom" href="#">Landing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-custom" href="#">Pages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-custom" href="#">Account</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-custom" href="#">Mega Menu</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="btn btn-primary" href="#">Sign In</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-outline-primary ml-2" href="#">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h1><b>Grow your skills and advance career</b></h1>
+                <p class="lead">Start, switch, or advance your career with more than 5,000 courses, Professional Certificates, and degrees from world-class universities and companies.</p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Join Free Now</a>
+                <a class="btn btn-outline-primary btn-lg ml-2" href="#" role="button"><i class="ii"> video </i></a>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="https://via.placeholder.com/300" alt="Girl with files" class="img-fluid">
+                <div class="mt-3">
+                    <p class="mb-0">Weekly Spent Hours</p>
+                    <h3 class="highlight">31 hrs 40 min</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row text-center">
+            <div class="col-md-3">
+                <div class="card card-custom">
+                    <div class="card-body">
+                        <h5 class="card-title">316,000+</h5>
+                        <p class="card-text">Qualified Instructor</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card card-custom">
+                    <div class="card-body">
+                        <h5 class="card-title">1.8 Billion+</h5>
+                        <p class="card-text">Course enrolments</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card card-custom">
+                    <div class="card-body">
+                        <h5 class="card-title">41,000+</h5>
+                        <p class="card-text">Courses in 42 languages</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card card-custom">
+                    <div class="card-body">
+                        <h5 class="card-title">179,000+</h5>
+                        <p class="card-text">Online Videos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <h2 class="text-center"><b>Most Popular Courses</b></h2>
+        <p class="text-center text-muted">These are the most popular courses among Geeks Courses learners worldwide in year 2022</p>
+        <ul class="nav nav-pills justify-content-center category-nav mb-4">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Development</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Design</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Marketing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Business</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Health</a>
+            </li>
+        </ul>
+        <div class="row">
+            <!-- Course Card 1 -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <img src="https://via.placeholder.com/50" alt="JavaScript" class="card-img-top mb-3">
+                        <h5 class="card-title">How to easily create a website with</h5>
+                        <p class="card-text">By: Claire Evans</p>
+                        <p class="text-muted">Intermediate</p>
+                        <p class="text-warning">★★★★☆ 4.5 (9,300)</p>
+                        <p class="font-weight-bold">$39.00 <button class="btn btn-outline-primary btn-sm">Get Enrolled</button></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Course Card 2 -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <img src="https://via.placeholder.com/50" alt="CSS" class="card-img-top mb-3">
+                        <h5 class="card-title">CSS: ultimate CSS course from</h5>
+                        <p class="card-text">By: Carolyn Welborn</p>
+                        <p class="text-muted">Beginner</p>
+                        <p class="text-warning">★★★★☆ 4.5 (8,890)</p>
+                        <p class="font-weight-bold">$30.00 <button class="btn btn-outline-primary btn-sm">  Get Enrolled</button></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Course Card 3 -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <img src="https://via.placeholder.com/50" alt="Gatsby" class="card-img-top mb-3">
+                        <h5 class="card-title">The Gatsby Course: build web</h5>
+                        <p class="card-text">By: Floyd Amall</p>
+                        <p class="text-muted">Intermediate</p>
+                        <p class="text-warning">★★★★☆ 4.5 (13,245)</p>
+                        <p class="font-weight-bold">$34.00 <button class="btn btn-outline-primary btn-sm">Get Enrolled</button></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Course Card 4 -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <img src="https://via.placeholder.com/50" alt="WordPress" class="card-img-top mb-3">
+                        <h5 class="card-title">WordPress: introduction to</h5>
+                        <p class="card-text">By: Victor Elliott</p>
+                        <p class="text-muted">Advanced</p>
+                        <p class="text-warning">★★★★☆ 4.5 (9,300)</p>
+                        <p class="font-weight-bold">$39.00 <button class="btn btn-outline-primary btn-sm">Get Enrolled</button></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Course Card 5 -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <img src="https://via.placeholder.com/50" alt="React" class="card-img-top mb-3">
+                        <h5 class="card-title">How to easily create a website with React</h5>
+                        <p class="card-text">By: Morris McCoy</p>
+                        <p class="text-muted">Intermediate</p>
+                        <p class="text-warning">★★★★☆ 4.5 (7,700)</p>
+                        <p class="font-weight-bold">$39.00 <button class="btn btn-outline-primary btn-sm">Get Enrolled</button></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Course Card 6 -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <img src="https://via.placeholder.com/50" alt="GraphQL" class="card-img-top mb-3">
+                        <h5 class="card-title">GraphQL: introduction to</h5>
+                        <p class="card-text">By: Michael Cundiff</p>
+                        <p class="text-muted">Beginner</p>
+                        <p class="text-warning">★★★★☆ 4.5 (9,300)</p>
+                        <p class="font-weight-bold">$30.00 <button class="btn btn-outline-primary btn-sm">Get Enrolled</button></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Course Card 7 -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <img src="https://via.placeholder.com/50" alt="Angular" class="card-img-top mb-3">
+                        <h5 class="card-title">Angular - the complete guide for</h5>
+                        <p class="card-text">By: Jeffrey McCoy</p>
+                        <p class="text-muted">Advanced</p>
+                        <p class="text-warning">★★★★☆ 4.5 (8,890)</p>
+                        <p class="font-weight-bold">$39.00 <button class="btn btn-outline-primary btn-sm">Get Enrolled</button></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Course Card 8 -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <img src="https://via.placeholder.com/50" alt="Python" class="card-img-top mb-3">
+                        <h5 class="card-title">The Python Course: build web</h5>
+                        <p class="card-text">By: Douglas Howell</p>
+                        <p class="text-muted">Beginner</p>
+                        <p class="text-warning">★★★★☆ 4.5 (13,245)</p>
+                        <p class="font-weight-bold">$34.00 <button class="btn btn-outline-primary btn-sm">Get Enrolled</button></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
